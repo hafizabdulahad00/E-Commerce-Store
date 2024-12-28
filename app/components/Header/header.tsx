@@ -79,14 +79,14 @@ const Header = () => {
     </div>
     {/* Cart Container */}
     {isCartOpen && (
-        <div className='absolute top-[0px] right-0 w-[417px] h-[746px] bg-white shadow-lg  border flex flex-col items-center gap-[20px]'>
+        <div className='absolute top-[0px] right-0 w-[417px] h-[746px] bg-white shadow-lg  border flex flex-col items-center gap-[20px] sm:w-full'>
           {/* cart */}
-          <div className='w-[350px] h-[80px] flex items-center justify-between border-b-[1px] border-b-[#D9D9D9]'>
+          <div className='w-[350px] h-[80px] flex items-center justify-between border-b-[1px] border-b-[#D9D9D9] sm:w-full'>
             <h2 className='text-[24px] Poppins text-[#000000] font-semibold'>Shopping Cart</h2>
             <IoMdLock className='w-5 h-5 text-[#9F9F9F] cursor-pointer' onClick={toggleCart} />
           </div>
           {/* sofa-box */}
-         <div className='w-[350px] h-[334px] flex flex-col gap-5'>
+         <div className='w-[350px] h-[334px] flex flex-col gap-5 sm:w-full'>
           {/* sofa1 */}
           <div className='w-full h-[105px] flex items-center gap-5 '>
             {/* image */}
@@ -128,21 +128,21 @@ const Header = () => {
             <MdCancel className='text-[#9F9F9F]' />
           </div>
          </div>
-         <div className='h-[200px] w-[350px] flex justify-between items-end'>
+         <div className='h-[200px] w-[350px] flex justify-between items-end sm:w-full sm:px-3'>
           <h4 className='text-[16px] text-[#000000] Poppins font-normal'>Subtotal</h4>
           <h4 className='text-[16px] text-[#B88E2F] Poppins font-normal'>Rs. 520,000.00</h4>
          </div>
          {/* button-box */}
-         <div className='w-full h-[80px] flex items-center justify-center border-t-[1px] border-t-[#D9D9D9]'>
+         <div className='w-full h-[80px] flex items-center justify-center border-t-[1px] border-t-[#D9D9D9] sm:w-full'>
            <div className='w-[368px] h-[30px] flex justify-center gap-[14px]'>
             <Link href = "/cart">
-            <button className='w-[87px] h-[30px] px-[30px] py-[6px] border-[1px] border-[#000000] rounded-[50px] text-[12px] text-[#000000] Poppins'>Cart</button>
+            <button className='w-[87px] h-[30px] px-[30px] py-[6px] border-[1px] border-[#000000] rounded-[50px] text-[12px] text-[#000000] Poppins sm:w-[60px] sm:flex sm:justify-center'>Cart</button>
             </Link>
             <Link href = "/checkout">
-            <button className='w-[118px] h-[30px] px-[30px] py-[6px] border-[1px] border-[#000000] rounded-[50px] text-[12px] text-[#000000] Poppins'>Checkout</button>
+            <button className='w-[118px] h-[30px] px-[30px] py-[6px] border-[1px] border-[#000000] rounded-[50px] text-[12px] text-[#000000] Poppins sm:w-[80px] sm:flex sm:justify-center'>Checkout</button>
             </Link>
             <Link href = "/productComparison">
-            <button className='w-[135px] h-[30px] px-[30px] py-[6px] border-[1px] border-[#000000] rounded-[50px] text-[12px] text-[#000000] Poppins'>Comparison</button>
+            <button className='w-[135px] h-[30px] px-[30px] py-[6px] border-[1px] border-[#000000] rounded-[50px] text-[12px] text-[#000000] Poppins sm:w-[100px] sm:flex sm:justify-center'>Comparison</button>
             </Link>
            </div>
           </div>

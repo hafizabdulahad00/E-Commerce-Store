@@ -26,16 +26,16 @@ const checkoutPage = () => {
         {/* form */}
         <div className='w-[608px] h-full flex flex-col md:w-full'>
             <div className='w-1/2 flex flex-col gap-8 md:w-full'>
-            <h2 className='text-[32px] text-[#000000] Poppins font-semibold md:text-center'>Billing details</h2>
+            <h2 className='text-[32px] text-[#000000] Poppins font-semibold md:text-center sm:text-[25px]'>Billing details</h2>
             <form action="#" className='flex flex-col w-full gap-5 '>
                 {/* FirstName */}
-                <div className='flex w-[453px] gap-7 md:w-full'>
-                <div className="flex flex-col w-1/2">
+                <div className='flex w-[453px] gap-7 md:w-full sm:flex-col sm:w-full'>
+                <div className="flex flex-col w-1/2 sm:w-full">
                 <label htmlFor="firstName" className='Poppins font-medium text-[16px] text-[#000000]'>First Name</label>
                 <input type="text" name="firstName" id="firstName" className='w-[211px] h-[75px] rounded-[10px] border-[1px] border-[#9F9F9F] md:w-full'/>
                 </div>
                 {/* LastName */}
-                <div className="flex flex-col w-1/2">
+                <div className="flex flex-col w-1/2 sm:w-full">
                 <label htmlFor="firstName" className='Poppins font-medium text-[16px] text-[#000000]'>Last Name</label>
                 <input type="text" name="lastName" id="lastName" className='w-[211px] h-[75px] rounded-[10px] border-[1px] border-[#9F9F9F] md:w-full' />
                 </div>
@@ -70,27 +70,27 @@ const checkoutPage = () => {
             </div>
         </div>
         {/* second-col */}
-        <div className='w-[608px] h-[789px] flex flex-col p-[50px] md:w-full md:h-full'>
+        <div className='w-[608px] h-[789px] flex flex-col p-[50px] md:w-full md:h-full sm:w-full'>
             <div className='w-full h-full flex flex-col gap-4'>
-                <div className='h-[50px] flex justify-between items-center '>
+                <div className='h-[50px] flex justify-between items-center sm:w-full sm:justify-center sm:gap-[30px]'>
                     <h2 className='text-[#000000] text-[24px] font-medium Poppins sm:text-[16px]'>Product</h2>
                     <h2 className='text-[#000000] text-[24px] font-medium Poppins sm:text-[16px]'>Subtotal</h2>
                 </div>
-                <div className='h-[50px] flex justify-between items-center sm:gap-[20px]'>
-                  <div className='flex gap-3'>
-                    <h4 className='text-[#9F9F9F] text-[16px] font-light Poppins sm:text-[12px] sm:whitespace-nowrap'>Asgaard sofa</h4>
+                <div className='h-[50px] flex justify-between items-center sm:gap-[80px] sm:justify-between sm:w-full'>
+                  <div className='flex gap-3 sm:w-full'>
+                    <h4 className='text-[#9F9F9F] text-[16px] font-light Poppins sm:text-[12px] sm:whitespace-nowrap sm:ml-[-30px]'>Asgaard sofa</h4>
                     <h4 className='text-[#000000] text-[16px] font-medium Poppins sm:text-[12px]'>X</h4>
                     <h4 className='text-[#000000] text-[16px] font-medium Poppins sm:text-[12px]'>1</h4>
                     </div>
-                    <h4 className='text-[#9F9F9F] text-[16px] font-light Poppins sm:text-[12px] sm:whitespace-nowrap'>Rs. 250,000.00</h4>
+                    <h4 className='text-[#9F9F9F] text-[16px] font-light Poppins sm:text-[12px] sm:whitespace-nowrap sm:ml-[-60px]'>Rs. 250,000.00</h4>
                 </div>
-                <div className='h-[50px] flex justify-between items-center'>
+                <div className='h-[50px] flex justify-between items-center sm:justify-center sm:gap-2'>
                     <h2 className='text-[#000000] text-[16px] font-normal Poppins'>Subtotal</h2>
-                    <h2 className='text-[#000000] text-[16px] font-light Poppins'>Rs. 250,000.00</h2>
+                    <h2 className='text-[#000000] text-[16px] font-light Poppins sm:text-[12px] sm:whitespace-nowrap'>Rs. 250,000.00</h2>
                 </div>
-                <div className='h-[50px] flex justify-between items-center'>
+                <div className='h-[50px] flex justify-between items-center sm:gap-2'>
                     <h2 className='text-[#000000] text-[16px] font-normal Poppins'>Total</h2>
-                    <h2 className='text-[#B88E2F] text-[24px] font-medium Poppins sm:text-[18px]'>Rs. 250,000.00</h2>
+                    <h2 className='text-[#B88E2F] text-[24px] font-medium Poppins sm:text-[12px] sm:whitespace-nowrap'>Rs. 250,000.00</h2>
                 </div>
                 <div className='h-0 w-full border-[1px] border-[#D9D9D9]'></div>
                 <form action="#" className='flex flex-col gap-2'>

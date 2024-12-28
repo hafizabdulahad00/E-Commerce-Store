@@ -22,7 +22,7 @@ const shopPage = () => {
     </div>
     </div>
     <div className='h-[100px] w-full bg-[#F9F1E7] flex justify-between md:flex-col md:gap-[20px] md:py-5 md:h-full sm:px-2'>
-      <div className='flex w-1/2 justify-center items-center gap-5 md:w-full'>
+      <div className='flex w-1/2 justify-center items-center gap-5 md:w-full sm:w-full'>
         <HiOutlineAdjustmentsHorizontal className='text-[#000000]'/>
         <h4 className='text-[20px] text-[#000000] Poppins sm:text-[16px]'>Filter</h4>
            <Image 
@@ -34,7 +34,7 @@ const shopPage = () => {
                             <div className='w-[37px] border border-[#9F9F9F] rotate-90'></div>
                             <h2 className='text-[#000000] Poppins text-[16px] sm:text-[12px]'>Showing 1–16 of 32 results</h2>
         </div>
-      <div className='flex w-1/2 justify-center items-center gap-5 md:w-full'>
+      <div className='flex w-1/2 justify-center items-center gap-5 md:w-full sm:w-full'>
       <h4 className='text-[20px] text-[#000000] Poppins sm:text-[16px]'>Show</h4>
       <div className='w-[55px] h-[55px] bg-[#FFFFFF] items-center justify-center flex'>
           <h4 className='text-[20px] text-[#9F9F9F] Poppins sm:text-[16px]'>16</h4>
@@ -49,11 +49,11 @@ const shopPage = () => {
       <Product/>
       <Product/>
        {/* pagination */}
-       <div className='w-[392px] h-[60px] flex gap-[38px]'>
-        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px]'>1</button>
-        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px]'>2</button>
-        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px]'>3</button>
-        <button className='w-[98px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px]'>Next</button>
+       <div className='w-[392px] h-[60px] flex gap-[38px] sm:w-full sm:items-center sm:justify-center'>
+        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px] sm:w-7 sm:h-7 '>1</button>
+        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px] sm:w-7 sm:h-7'>2</button>
+        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px] sm:w-7 sm:h-7'>3</button>
+        <button className='w-[98px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px] sm:w-[60px] sm:h-7'>Next</button>
       </div>
     </div>
   <Performance/>

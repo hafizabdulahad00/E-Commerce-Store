@@ -129,7 +129,7 @@ import Performance from '../components/Performance/performance';
       {/* side-bar */}
       <div className='w-[30%] flex flex-col items-center gap-[50px]'>
         {/* cetagories */}
-        <div className='w-[393px] h-[537px] flex items-center flex-col gap-6'>
+        <div className='w-[393px] h-[537px] flex items-center flex-col gap-6 sm:w-full'>
           {/* search-bar */}
           <div className='w-[311px] h-[58px] flex justify-end items-center border-[1px] border-[#9F9F9F] rounded-[5px] px-3 cursor-text'>
           <CiSearch className='w-6 h-6 text-[#000000]' />
@@ -159,7 +159,7 @@ import Performance from '../components/Performance/performance';
           </div>
         </div>
           </div>
-          <div className='w-[393px] h-[650px] flex justify-center'>
+          <div className='w-[393px] h-[650px] flex justify-center sm:w-full'>
             <div className='w-[260px] h-[618px] flex flex-col gap-6'>
             <h2 className='Poppins text-[24px] text-[#000000] font-medium'>Recent Posts</h2>
             {/* box1 */}
@@ -227,11 +227,11 @@ import Performance from '../components/Performance/performance';
       </div>
       </div>
       {/* pagination */}
-      <div className='w-[392px] h-[60px] flex gap-[38px] sm:px-4'>
-        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px]'>1</button>
-        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px]'>2</button>
-        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px]'>3</button>
-        <button className='w-[98px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px]'>Next</button>
+      <div className='w-[392px] h-[60px] flex gap-[38px] sm:px-4 sm:w-full sm:items-center sm:justify-center'>
+        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px] sm:w-7 sm:h-7 '>1</button>
+        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px] sm:w-7 sm:h-7 '>2</button>
+        <button className='w-[60px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px] sm:w-7 sm:h-7 '>3</button>
+        <button className='w-[98px] h-[60px] bg-[#F9F1E7] active:bg-[#B88E2F] text-[20px] text-[#000000] Poppins rounded-[10px] sm:w-[60px] sm:h-7 '>Next</button>
       </div>
     </div>
     <div className='flex pb-6'>

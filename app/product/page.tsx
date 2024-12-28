@@ -33,7 +33,7 @@ const product = () => {
             </div>
     </div>
     {/* Second */}
-    <div className='w-full h-[820px] px-14 py-7 pl-[350px] flex gap-[50px] md:flex-col md:h-full md:p-0 md:items-center md:py-5'>
+    <div className='w-full h-[820px] px-14 py-7 pl-[350px] flex gap-[50px] md:flex-col md:h-full md:p-0 md:items-center md:py-5 sm:h-full'>
         {/* Image-box */}
         <div className='w-[553px] h-[500px] flex gap-6 sm:w-full sm:px-3 sm:gap-0'>
             <div className='w-[76px] h-[416px] flex flex-col gap-8 sm:w-full'>
@@ -109,9 +109,9 @@ const product = () => {
                 </div> 
                 </div >
                 {/* button */}
-                <div className='flex gap-[30px]'>
-                <button className='w-[123px] h-[64px] rounded-[15px] border border-black text-[20px] Poppins flex items-center justify-between p-2 gap-3 text-[#000000]'><FaMinus className='w-2 h-2'/>1<FaPlus className='w-2 h-2' /></button>
-                    <button className='w-[215px] h-[64px] rounded-[15px] border border-black text-[20px] Poppins text-[#000000]'>Add To Cart</button>
+                <div className='flex gap-[30px] sm:flex-col sm:h-full'>
+                <button className='w-[123px] h-[64px] rounded-[15px] border border-black text-[20px] Poppins flex items-center justify-between p-2 gap-3 text-[#000000] '><FaMinus className='w-2 h-2'/>1<FaPlus className='w-2 h-2' /></button>
+                    <button className='w-[215px] h-[64px] rounded-[15px] border border-black text-[20px] Poppins text-[#000000] '>Add To Cart</button>
                     <button className='w-[215px] h-[64px] rounded-[15px] border border-black text-[20px] Poppins flex items-center justify-center gap-3 text-[#000000]'><FaPlus />Compare</button>
                     
                 </div>
@@ -139,18 +139,18 @@ const product = () => {
         </div>
     </div>
     {/* third */}
-    <div className='w-full h-[744px] flex flex-col items-center justify-center gap-[50px] border-t border-[#9F9F9F] md:px-4 md:py-5 md:gap-3 md:h-full'>
-        <div className='w-[649px] h-[36px] flex gap-[36px] md:w-full md:justify-center md:h-full'>
+    <div className='w-full h-[744px] flex flex-col items-center justify-center gap-[50px] border-t border-[#9F9F9F] md:px-4 md:py-5 md:gap-3 md:h-full sm:mt-[150px] sm:px-3'>
+        <div className='w-[649px] h-[36px] flex gap-[36px] md:w-full md:justify-center md:h-full sm:w-full'>
             <h4 className='text-[24px] font-medium Poppins text-[#000000] sm:text-[16px]'>Description</h4>
             <h4 className='text-[24px] font-medium Poppins text-[#9F9F9F] sm:text-[16px]'>Additional Information</h4>
             <h4 className='text-[24px] font-medium Poppins text-[#9F9F9F] sm:text-[16px]'>Reviews [5]</h4>
         </div>
         {/* para */}
-        <div className='w-[1026px] h-[174px] flex flex-col gap-[30px] md:w-full md:h-full'>
+        <div className='w-[1026px] h-[174px] flex flex-col gap-[30px] md:w-full md:h-full sm:w-full'>
             <p className='text-[16px] Poppins text-[#9F9F9F] sm:text-[12px]'>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
             <p className='text-[16px] Poppins text-[#9F9F9F] sm:text-[12px]'>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
         </div>
-        <div className='w-[1239px] h-[348px] flex gap-[29px] justify-center md:w-full md:py-5 md:h-full'>
+        <div className='w-[1239px] h-[348px] flex gap-[29px] justify-center md:w-full md:py-5 md:h-full sm:w-full'>
             <div className='w-[605px] bg-[#F9F1E7] h-full flex justify-center items-center'>
             <Image 
                                         src={'/yellowSofa.png'}

@@ -12,7 +12,7 @@ export default function Home() {
       <div className="w-full h-screen  bg-[url('/Hero.png')] bg-cover flex items-center justify-end px-14 md:justify-center md:p-0 sm:px-5 sm:h-full md:h-[80vh]">
       <div className="w-[643px] h-[443px] flex flex-col bg-[#FFF3E3] p-16 justify-center rounded-[10px] mr-[230px] md:m-0 sm:w-full">
         <h4 className="text-[#000000] text-[16px] Poppins font-semibold tracking-[3px] md:text-[14px] sm:text-[12px]">New Arrival</h4>
-        <h1 className="text-[52px] leading-[64px]  font-bold Poppins text-[#B88E2F] w-[450px] md:text-[40px] sm:text-[30px] md:leading-[52px] sm:leading-[42px] md:w-[350px] xs:text-[22px] xs:leading-7 xs:w-[90%]">Discover Our New Collection</h1>
+        <h1 className="text-[52px] leading-[64px]  font-bold Poppins text-[#B88E2F] w-[450px] md:text-[40px] sm:text-[30px] md:leading-[52px] sm:leading-[42px] md:w-[350px] xs:text-[25px] xs:leading-7 xs:w-[100%]">Discover Our New Collection</h1>
         <p className="text-[18px] text-[#333333] Poppins leading-6 font-medium md:text-[16px] sm:text-[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
         <button className="w-[222px] h-[74px] bg-[#B88E2F] text-[#FFFFFF] px-[72px] py-[25px] Poppins text-[16px] font-bold mt-16
          md:w-[200px] md:h-[55px] md:text-[14px] md:whitespace-nowrap md:px-[52px] md:py-[20px] transition-all ease-in duration-300 hover:bg-[#FFFFFF] hover:text-[#B88E2F]">Buy Now</button>
@@ -22,7 +22,7 @@ export default function Home() {
       <div className="w-full h-[800px] flex items-center justify-center sm:h-full sm:py-[50px] md:h-full md:py-[40px]">
         <div className="w-[1183px] h-[685px] flex flex-col items-center gap-[50px] sm:h-full md:h-full md:gap-[30px] sm:w-full">
           {/* text-box */}
-          <div className="w-[559px] h-[76.71px] flex flex-col items-center sm:w-full">
+          <div className="w-[559px] h-[76.71px] flex flex-col items-center sm:w-full xs:h-full">
             <h2 className="text-[32px] text-[#333333] Poppins font-bold md:text-[24px] sm:text-[16px]">Browse The Range</h2>
             <p className="text-[20px] Poppins text-[#666666] md:text-[16px] sm:text-[14px] sm:w-1/2 sm:text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
@@ -60,7 +60,7 @@ export default function Home() {
       </div>
       {/* Product */}
       <div className="h-full w-full flex flex-col gap-5  items-center py-[50px] md:py-5">
-      <h2 className='text-[40px] text-[#3A3A3A] leading-[48px] Poppins font-bold text-center'>Our Products</h2>
+      <h2 className='text-[40px] text-[#3A3A3A] leading-[48px] Poppins font-bold text-center xs:text-[25px]'>Our Products</h2>
         <Product/>
         <button className="w-[285px] h-12 bg-[#FFFFFF] text-[16px] leading-6 Poppins font-semibold text-[#B88E2F] border-[1px] border-[#B88E2f] transition-all ease-in duration-300 hover:text-[#FFFFFF] hover:bg-[#B88E2F]">Show More</button>
       </div>
@@ -69,7 +69,7 @@ export default function Home() {
         {/* text */}
         <div className="flex flex-col gap-[20px] w-[50%] md:w-full md:items-center">
         <div className="flex flex-col gap-2 pl-[300px] md:p-0 md:items-center">
-          <h2 className="text-[40px] leading-[48px] text-[#3A3A3A] font-bold Poppins md:text-center">50+ Beautiful rooms 
+          <h2 className="text-[40px] leading-[48px] text-[#3A3A3A] font-bold Poppins md:text-center xs:text-[25px] xs:leading-8">50+ Beautiful rooms 
           inspiration</h2>
           <p className="text-[16px] w-[75%] leading-6 text-[#696969] Poppins font-medium md:text-center">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
         </div>
