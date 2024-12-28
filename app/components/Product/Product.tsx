@@ -10,7 +10,7 @@ const Product = () => {
        
 
         {/* first-Image-Container */}
-        <div className='w-full h-[446px] flex gap-8 items-center md:flex-col md:h-full lg:w-1/2 lg:flex-wrap lg:justify-center lg:h-full'>
+        <div className='w-full h-[446px] flex gap-8 items-center md:flex-col md:h-full lg:w-1/2  lg:justify-center lg:h-full'>
             {/* Box1 */}
             {/* main-box */}
             <Link href = "/product">
@@ -207,7 +207,7 @@ const Product = () => {
         </div>
 
         {/* Second-Image-Container */}
-        <div className='w-full h-[446px] flex gap-8 items-center md:h-full md:flex-col md:py-4 lg:w-1/2 lg:flex-wrap lg:justify-center lg:h-full'>
+        <div className='w-full h-[446px] flex gap-8 items-center md:h-full md:flex-col md:py-4 lg:w-1/2  lg:justify-center lg:h-full'>
             {/* Box1 */}
             {/* main-box */}
             <Link href = "/product">
