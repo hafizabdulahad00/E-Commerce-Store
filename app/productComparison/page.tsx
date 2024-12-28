@@ -8,7 +8,7 @@ const productComparison = () => {
   return (
     <section>
          <div className='w-full h-[316px] bg-[url(/Shop-Banner.png)] flex bg-cover justify-center items-center flex-col'>
-    <div className='w-[502px] h-[133px] flex flex-col items-center justify-center'>
+    <div className='w-[502px] h-[133px] flex flex-col items-center justify-center sm:w-full'>
     <Image 
                     src={'/Logo.png'}
                     width={50}
@@ -40,7 +40,7 @@ const productComparison = () => {
                             src={'/greenSofa.png'}
                             width={271}
                             height={201}
-                            alt='sofa'/>
+                            alt='sofa' className='sm:w-full h-full'/>
       </div>
       <h4 className='text-[24px] font-medium text-[#000000] Poppins sm:text-[16px]'>Asgaard Sofa</h4>
       <h4 className='text-[18px] font-medium text-[#000000] Poppins sm:text-[12px]'>Rs. 250,000.00</h4>
@@ -62,7 +62,7 @@ const productComparison = () => {
                             src={'/blackSofa.png'}
                             width={271}
                             height={201}
-                            alt='sofa'/>
+                            alt='sofa' className='sm:w-full sm:h-full'/>
     </div>
       <h4 className='text-[24px] font-medium text-[#000000] Poppins sm:text-[16px]'>Outdoor Sofa Set</h4>
       <h4 className='text-[18px] font-medium text-[#000000] Poppins sm:text-[12px]'>Rs. 224,000.00</h4>
@@ -90,7 +90,7 @@ const productComparison = () => {
 </div>
     </div>
     {/* product-properties */}
-    <div className='h-full flex-col flex justify-center gap-[70px] pl-[100px] py-[100px] sm:px-2 sm:py-5'>
+    <div className='h-full flex-col flex justify-center gap-[70px] pl-[100px] py-[100px] sm:px-2 sm:py-5 sm:w-full'>
       {/* First-Column */}
       <div className='flex flex-col gap-[30px] border-t border-t-[#E8E8E8] pt-12'>
   <h2 className='text-[28px] font-medium Poppins text-[#000000]'>General</h2>

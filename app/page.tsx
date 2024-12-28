@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <section>
       {/* Hero Section */}
-      <div className="w-full h-screen  bg-[url('/Hero.png')] bg-cover flex items-center justify-end px-14 md:justify-center md:p-0 sm:px-5 sm:h-[50vh] md:h-[80vh]">
+      <div className="w-full h-screen  bg-[url('/Hero.png')] bg-cover flex items-center justify-end px-14 md:justify-center md:p-0 sm:px-5 sm:h-full md:h-[80vh]">
       <div className="w-[643px] h-[443px] flex flex-col bg-[#FFF3E3] p-16 justify-center rounded-[10px] mr-[230px] md:m-0 sm:w-full">
         <h4 className="text-[#000000] text-[16px] Poppins font-semibold tracking-[3px] md:text-[14px] sm:text-[12px]">New Arrival</h4>
-        <h1 className="text-[52px] leading-[64px]  font-bold Poppins text-[#B88E2F] w-[450px] md:text-[40px] sm:text-[30px] md:leading-[52px] sm:leading-[42px] md:w-[350px]">Discover Our New Collection</h1>
+        <h1 className="text-[52px] leading-[64px]  font-bold Poppins text-[#B88E2F] w-[450px] md:text-[40px] sm:text-[30px] md:leading-[52px] sm:leading-[42px] md:w-[350px] xs:text-[22px] xs:leading-7 xs:w-[90%]">Discover Our New Collection</h1>
         <p className="text-[18px] text-[#333333] Poppins leading-6 font-medium md:text-[16px] sm:text-[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
         <button className="w-[222px] h-[74px] bg-[#B88E2F] text-[#FFFFFF] px-[72px] py-[25px] Poppins text-[16px] font-bold mt-16
          md:w-[200px] md:h-[55px] md:text-[14px] md:whitespace-nowrap md:px-[52px] md:py-[20px] transition-all ease-in duration-300 hover:bg-[#FFFFFF] hover:text-[#B88E2F]">Buy Now</button>
@@ -20,9 +20,9 @@ export default function Home() {
       </div>
       {/* Browse The Range */}
       <div className="w-full h-[800px] flex items-center justify-center sm:h-full sm:py-[50px] md:h-full md:py-[40px]">
-        <div className="w-[1183px] h-[685px] flex flex-col items-center gap-[50px] sm:h-full md:h-full md:gap-[30px]">
+        <div className="w-[1183px] h-[685px] flex flex-col items-center gap-[50px] sm:h-full md:h-full md:gap-[30px] sm:w-full">
           {/* text-box */}
-          <div className="w-[559px] h-[76.71px] flex flex-col items-center">
+          <div className="w-[559px] h-[76.71px] flex flex-col items-center sm:w-full">
             <h2 className="text-[32px] text-[#333333] Poppins font-bold md:text-[24px] sm:text-[16px]">Browse The Range</h2>
             <p className="text-[20px] Poppins text-[#666666] md:text-[16px] sm:text-[14px] sm:w-1/2 sm:text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
@@ -117,7 +117,7 @@ export default function Home() {
         {/* text */}
         <div className="w-[356px] h-[86px] flex flex-col gap-[8px]  absolute top-[418%] md:static md:w-full md:h-full md:pt-5">
           <h4 className="text-[20px] leading-[30px] Poppins font-semi-bold text-center text-[#616161]">Share your setup with</h4>
-          <h2  className="text-[40px] leading-[48px] Poppins font-bold text-center text-[#3A3A3A]">#FuniroFurniture</h2>
+          <h2  className="text-[40px] leading-[48px] Poppins font-bold text-center text-[#3A3A3A] xs:text-[20px]">#FuniroFurniture</h2>
         </div>
         {/* Image-box */}
         <div className="flex justify-center w-full items-center pt-12 md:flex-col">

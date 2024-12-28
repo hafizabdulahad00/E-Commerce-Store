@@ -29,7 +29,7 @@ const contactPage = () => {
     <div className='w-full h-[1140px] flex flex-col items-center pt-[100px] md:h-full'>
       <h2 className='text-[36px] text-[#000000] Poppins font-semibold text-center sm:text-[25px]'>Get In Touch With Us</h2>
       <p className='text-[16px] leading-6 text-[#9F9F9F] text-center w-[644px] sm:text-[12px] sm:w-[70%]'>For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
-      <div className='w-[1058px] h-[900px] flex gap-[30px] justify-center items-center md:flex-col md:h-full md:gap-[10px]'>
+      <div className='w-[1058px] h-[900px] flex gap-[30px] justify-center items-center md:flex-col md:h-full md:gap-[10px] sm:w-full'>
         {/* Address-box */}
         <div className='w-[393px] h-[537px] flex flex-col justify-center items-center md:h-full py-[30px]' >
           <div className='w-full h-[179px] flex'>
@@ -70,7 +70,7 @@ const contactPage = () => {
         </div>
         {/* form-box */}
         <div className='w-[635px] h-[923px] flex items-end justify-center md:h-full sm:w-[95%]'>
-          <form action="#" className='w-[531px] h-[741px] flex flex-col gap-5 sm:w-[30%] sm:items-start'>
+          <form action="#" className='w-[531px] h-[741px] flex flex-col gap-5 sm:items-start sm:w-full sm:px-3'>
             <label htmlFor="name" className='text-[#000000] Poppins text-[16px]'>Your name</label>
             <input type="text" name="name" id="name" placeholder='Abc' className='w-[526.75px] h-[75px] rounded-[10px] placeholder:text-[#9F9F9F] placeholder:Poppins placeholder:text-[16px] border-[1px] border-[#9F9F9F] placeholder:px-5 sm:w-full'/>
             <label htmlFor="email" className='text-[#000000] Poppins text-[16px]'>Email address</label>
