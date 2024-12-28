@@ -17,6 +17,7 @@ export default {
         'xs': { 'max' :'360px'},  // Compact smartphones
         'sm': { 'max' :'480px'},   // Smartphones
         'md':  { 'max': '768px' },   // Tablets
+        'lg': { 'min': '1024px' },  // Laptops and desktops
     },
   },
   plugins: [],

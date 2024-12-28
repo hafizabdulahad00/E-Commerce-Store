@@ -6,11 +6,11 @@ import Link from 'next/link';
 
 const Product = () => {
   return (
-    <div className='w-[1236px] h-[1084px] flex flex-col justify-center gap-8 md:w-full md:h-full'>
+    <div className='w-[1236px] h-[1084px] flex flex-col justify-center gap-8 md:w-full md:h-full lg:items-center lg:h-full lg:w-full'>
        
 
         {/* first-Image-Container */}
-        <div className='w-full h-[446px] flex gap-8 items-center md:flex-col md:h-full'>
+        <div className='w-full h-[446px] flex gap-8 items-center md:flex-col md:h-full lg:w-1/2 lg:flex-wrap lg:justify-center lg:h-full'>
             {/* Box1 */}
             {/* main-box */}
             <Link href = "/product">
@@ -64,7 +64,7 @@ const Product = () => {
 
             {/* Box-2 */}
             <Link href = "/product">
-            <div className='w-[285px] h-[446px] flex flex-col relative overflow-hidden cursor-pointer'>
+            <div className='w-[285px] h-[446px] flex flex-col relative overflow-hidden cursor-pointer '>
                 {/* Image */}
             <div className="w-full h-[301px] bg-[url('/Product2.png')] bg-cover flex justify-end pr-4 pt-4">  
             </div>
@@ -207,7 +207,7 @@ const Product = () => {
         </div>
 
         {/* Second-Image-Container */}
-        <div className='w-full h-[446px] flex gap-8 items-center md:h-full md:flex-col md:py-4'>
+        <div className='w-full h-[446px] flex gap-8 items-center md:h-full md:flex-col md:py-4 lg:w-1/2 lg:flex-wrap lg:justify-center lg:h-full'>
             {/* Box1 */}
             {/* main-box */}
             <Link href = "/product">
